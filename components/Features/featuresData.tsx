@@ -4,45 +4,77 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    title: "Tenant Management",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Seamlessly manage tenant profiles, from applications to lease agreements and communication.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    title: "Lease Management",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Generate, store, and automate lease agreements and renewals with ease.",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    title: "Rent Collection",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Simplify rent collection through online payments and automated reminders.",
   },
   {
     id: 4,
     icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    title: "Maintenance and Repairs",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Streamline maintenance requests, work order tracking, and vendor management.",
   },
   {
     id: 5,
     icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    title: "Financial Management",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Keep your finances in order with income and expense tracking, and detailed financial reports.",
   },
   {
     id: 6,
     icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    title: "Communication and Notifications",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Enhance tenant engagement with automated notifications and two-way communication.",
   },
+  {
+    id: 7,
+    icon: "/images/icon/icon-04.svg",
+    title: "Analytics and Reporting",
+    description:
+      "Make data-driven decisions using property performance reports and financial metrics",
+  },
+  {
+    id: 8,
+    icon: "/images/icon/icon-05.svg",
+    title: "Integration with Third-Party Services",
+    description:
+      "Seamlessly connect with payment gateways, accounting software, and listing platforms.",
+  },
+  {
+    id: 9,
+    icon: "/images/icon/icon-06.svg",
+    title: "Document Management",
+    description:
+      "Safeguard critical documents and agreements with a secure and accessible digital repository.",
+  },
+  {
+    id: 10,
+    icon: "/images/icon/icon-06.svg",
+    title: "Tenant Portals",
+    description:
+      "Offer tenants convenient online portals for payments, requests, and communication.",
+  },
+
+
+
+
 ];
 
 export default featuresData;

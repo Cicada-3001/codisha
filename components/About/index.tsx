@@ -63,17 +63,18 @@ const About = () => {
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   New
                 </span>{" "}
-                SaaS Boilerplate for Next.js
+                Property Management Software 
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 A Complete Solution for
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  SaaS Startup
+                  Property Owners and  Managers
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+               Our comprehensive property management solution is designed to meet the diverse needs of property owners and managers,
+               offering a one-stop platform to efficiently oversee all aspects of property management. Whether you're managing a single
+               rental unit or a large real estate portfolio our solution empowers you with the tools and features necessary for success.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -84,9 +85,10 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    React 18, Next.js 13 and TypeScript
+                    Tenant-Centric Features
                   </h3>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
+                  <p>Enhance the rental experience with online portals for rent payments, maintenance requests, and easy communication.
+                    Access lease agreements and receive automated rent reminders..</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -97,9 +99,10 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Fully Customizable
+                    Streamlined Financial Management
                   </h3>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
+                  <p>Effortlessly manage income, expenses, and financial reports.
+                    Automate rent collection and lease renewals for efficient financial operations.</p>
                 </div>
               </div>
             </motion.div>

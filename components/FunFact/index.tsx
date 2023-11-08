@@ -7,23 +7,9 @@ const FunFact = () => {
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
-      <section className="px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0">
+      <section className="px-4 py-20 md:px-8  2xl:px-0">
         <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
-          <Image
-            width={335}
-            height={384}
-            src="/images/shape/shape-04.png"
-            alt="Man"
-            className="absolute -left-15 -top-25 -z-1 lg:left-0"
-          />
-          <Image
-            width={132}
-            height={132}
-            src="/images/shape/shape-05.png"
-            alt="Doodle"
-            className="absolute bottom-0 right-0 -z-1"
-          />
-
+      
           <Image
             fill
             src="/images/shape/shape-dotted-light-02.svg"
@@ -55,13 +41,11 @@ const FunFact = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
-            <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              Trusted by Global Companies.
+            <h2 className="mb-4 text-3xl font-bold text-black dark:text-white ">
+              Trusted By Companies Country Wide
             </h2>
             <p className="mx-auto lg:w-11/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              
             </p>
           </motion.div>
 
@@ -84,10 +68,10 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                500K
+              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white">
+                300
               </h3>
-              <p className="text-lg lg:text-para2">World Wide Clients</p>
+              <p className="text-lg">Country Wide Clients</p>
             </motion.div>
             <motion.div
               variants={{
@@ -107,10 +91,10 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                1M+
+              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white">
+                450
               </h3>
-              <p className="text-lg lg:text-para2">Downloads</p>
+              <p className="text-lg">Downloads</p>
             </motion.div>
             <motion.div
               variants={{
@@ -130,10 +114,10 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                865
+              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white">
+                3
               </h3>
-              <p className="text-lg lg:text-para2">Winning Award</p>
+              <p className="text-lg">Winning Award</p>
             </motion.div>
           </div>
         </div>
